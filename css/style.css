@@ -1,0 +1,57 @@
+/**
+*! google fonts 
+**/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+/* font family */
+/* 'Montserrat' 'Barlow' sans-serif */
+
+/**
+*! Css Reset
+**/
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat','Barlow',sans-serif ;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+input,button{
+    outline: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+a:link,
+a:visited{
+    color: #000;
+}
+a:active{
+    color: #ff0000;
+};
+
+/**
+*! Css Variables
+**/
+
+:root{
+    --main-heading-fz:3.5rem;
+    --main-heading-fw:600;
+    --secondary-heading-fz:2.5rem;
+    --secondary-heading-fw:500;
+    --para-fz:1.8rem;
+    --para-color:#1a1a1a;
+    --box-shadow: 0px 3px 9px 0px #00000070;
+    --transition:all  0.3s ease-in;
+}
+
