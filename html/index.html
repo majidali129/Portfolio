@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,19 +17,20 @@
     <link rel="stylesheet" href="/css/utility.css">
     <title> Front-end-engineer || Web Developer || Web Designer </title>
 </head>
+
 <body>
     <!-- /** 
     *!  Header start
     **/ -->
 
     <header>
-        <section class="container-fluid">
-            <section class="container">
-                    <nav class="nav">
-                        <section class="logo"></section>
+        <div class="user-section container-fluid" id="home-section">
+            <div class="container">
+                <nav class="nav">
+                        <section class="logo"><span href="#">DEV</span></section>
                         <section class="nav-links">
                             <ul class="nav-list">
-                                <li class="list-item"><a href="#home-section" class="link">Home</a></li>
+                                <li class="list-item"><a href="#home-section" class="link active">Home</a></li>
                                 <li class="list-item"><a href="#about-section" class="link">About</a></li>
                                 <li class="list-item"><a href="#portfolio-section" class="link">Portfolio</a></li>
                                 <li class="list-item"><a href="#services-section" class="link">Services</a></li>
@@ -39,16 +41,56 @@
                             </ul>
                         </section>
                     </nav>
-            </section>
-        </section>
+
+                <section class="home-wrapper">
+                    <div class="home-text">
+                        <h1 class="main-heading">It's Majid Ali <br>
+                            Passionate Front-End-Engineer</h1>
+                    </div>
+                </section>
+            </div>
+        </div>
     </header>
 
-     <!-- /** 
-    *!  Header start
+    <!-- /** 
+    *!  Header End
     **/ -->
 
-    <main></main>
+    <main>
+         <!-- /** 
+    *!  About Start
+    **/ -->
+
+    <section class="about-section" id="about-section">
+        <div class="container">
+            <div class="row ">
+                <h1 class="main-heading text-center mb-5">About Me</h1>
+             <div class="about-wrapper d-flex align-items-md-center justify-content-md-around">
+                <div class="img-section col-md-5">
+                    <figure>
+                        <img src="/images/about.jpg" alt="">
+                    </figure>
+                  </div>
+                  <div class="bio-section col-md-5">
+                    <div class="bio-text">
+                        <h2 class="secondary-heading">Bio</h2>
+                        <p class="bio-para">
+                            Majid Ali is a front end engineer who started to learn web development six month ago when he was just completing his third of semester computer science. He really loves to code and to explore new things everyday. <br> He is a self lerner and with the passage of time learned a lot of things related to tech and built different single as well as multi-page static along with dynamic sites by using HTML, CSS, JavaScript, Bootstrap, Sass and React.js. After getting deep knowledge and best experience , currently he is working on such a big real world project.
+                        </p>
+                    </div><hr>
+                    <button class="btn cv-btn"><a href="#" class="cv-link">Download Resume</a></button>
+                  </div>
+             </div>
+            </div>
+        </div>
+    </section>
+
+          /** 
+    *!  About End
+    **/ -->
+    </main>
     <footer></footer>
-    
+
 </body>
+
 </html>

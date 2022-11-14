@@ -1,0 +1,23 @@
+.main-heading{
+    font-size: 3.5rem;
+}
+
+.btn{
+    padding: 0.6em 1em;
+    background-color: #001c1c;
+    color: #fff;
+    font-size: 1.8rem;
+    border-width: 2.2px;
+    /* border-radius: 5px; */
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    text-transform:capitalize;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    color: #001c1c;
+    background-color: #fff;
+    /* border-radius: 0em; */
+    border-image: linear-gradient(to right, rgb(11, 11, 230), #001c1c) 1;
+}
